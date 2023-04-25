@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Inter', sans-serif;
+}
+nav{
+  background-color:#F55A5A;
+  padding: 20px;
+  text-align: center;
+}
+
+nav p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+nav p .icon {
+  margin-right: 10px;
+}
