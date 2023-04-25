@@ -5,10 +5,7 @@ export default function Card(props) {
   return (
     <>
       <div className="card">
-        <img
-          src={`../../../../public/img/${props.imageUrl}`}
-          alt={props.title}
-        />
+        <img src={`../../img/${props.imageUrl}`} alt={props.title} />
         <div className="info">
           <div className="location">
             <IoLocationSharp className="map-icon" />
